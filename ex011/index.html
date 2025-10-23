@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 725px)" srcset="img-gimp/imagem-P.png" type="image/png">
+        <source media="(max-width: 1025px)" srcset="img-gimp/imagem-M.png" type="image/png">
+        <img src="img-gimp/imagem-G.png" alt="Imagem flexível">
+    </picture>
+    <p><a href="outroex.html" target="_self">Página 2</a></p>
+    
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midiapai/the-greyroom.mp3.mp3" type="audio/mpeg">
+        <source src="midiapai/the-greyroom.mp3.ogg" type="audio/ogg">
+        <source src="midiapai/the-greyroom.mp3.wav" type="audio/wav">
+        <p>Infelizemnte seu navegador é uma batata, qulique aqui para baixar o MP3</p>
+    </audio>
+    
+   
+
+
+
+
+</body>
+</html>
